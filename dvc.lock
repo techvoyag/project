@@ -1,0 +1,6 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python data/random_data.py
+  process_and_train_model:
+    cmd: python train.py

@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/Documents/7%20semester/MLops/project/mlruns/0/d6b8d356b82c4de0b3d1b762ba310ebb/artifacts
+end_time: 1703877005723
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6b8d356b82c4de0b3d1b762ba310ebb
+run_name: charming-stork-414
+run_uuid: d6b8d356b82c4de0b3d1b762ba310ebb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703877005702
+status: 3
+tags: []
+user_id: runner

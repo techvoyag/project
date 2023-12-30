@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/Documents/7%20semester/MLops/project/mlruns/0/934ea1304002491889b7d7b612936246/artifacts
+end_time: 1703770893980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 934ea1304002491889b7d7b612936246
+run_name: charming-finch-76
+run_uuid: 934ea1304002491889b7d7b612936246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703770886188
+status: 3
+tags: []
+user_id: aosaf

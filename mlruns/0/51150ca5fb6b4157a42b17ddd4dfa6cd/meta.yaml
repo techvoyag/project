@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/Documents/7%20semester/MLops/project/mlruns/0/51150ca5fb6b4157a42b17ddd4dfa6cd/artifacts
+end_time: 1703897662161
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51150ca5fb6b4157a42b17ddd4dfa6cd
+run_name: defiant-seal-87
+run_uuid: 51150ca5fb6b4157a42b17ddd4dfa6cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703897662140
+status: 3
+tags: []
+user_id: runner
