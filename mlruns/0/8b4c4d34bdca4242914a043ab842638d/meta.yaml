@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/Documents/7%20semester/MLops/project/mlruns/0/8b4c4d34bdca4242914a043ab842638d/artifacts
+end_time: 1703954574356
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b4c4d34bdca4242914a043ab842638d
+run_name: youthful-lark-168
+run_uuid: 8b4c4d34bdca4242914a043ab842638d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703954574335
+status: 3
+tags: []
+user_id: runner
