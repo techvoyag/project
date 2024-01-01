@@ -2,7 +2,7 @@
 
 
 ## Features
-- **Model Training**: Trains a RandomForest model using [mention any special features of your training process or data].
+- **Model Training**: Trains a RandomForest model using sensor data.
 - **Automated Retraining**: Automatically retrains the model when new data is added or a push is made on the repo, ensuring the model remains accurate over time.
 
 ## Getting Started
