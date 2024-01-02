@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 import joblib
 
 # Load data
-data = pd.read_csv('data/dummy_sensor_data.csv')  # Replace with your file path
+data = pd.read_csv('data/dummy_sensor_data.csv')  # file path
 
 # Feature Engineering (if needed)
 data['Timestamp'] = pd.to_datetime(data['Timestamp'])
