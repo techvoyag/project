@@ -73,7 +73,7 @@ if mse > 500:
         mlflow.sklearn.log_model(best_model, "retrained_model")
 
         # Save the retrained model
-        model_filename = 'model/retrained_random_forest_model.joblib'
+        model_filename = 'model/random_forest_model.joblib'
         joblib.dump(best_model, model_filename)
         print(f"Retrained model saved as {model_filename}")
 else:
