@@ -47,7 +47,7 @@ best_run = get_best_run(experiment_id, metric_name, smaller_is_better=True)
 best_run_id = best_run.info.run_id
 # model_path = f"app/models/0/{best_run_id}/artifacts/best_model"  # Adjust the path as needed
 # model = mlflow.sklearn.load_model(model_path)
-model = mlflow.sklearn.load_model(f"mlruns/0/{best_run_id}/best_model")
+model = mlflow.sklearn.load_model(f"mlruns/0/{best_run_id}/artifacts/best_model")
 
 # Evaluate the model
 predictions = model.predict(X_val)
