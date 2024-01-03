@@ -25,7 +25,7 @@ metric_name = "mse"  # Replace with your metric name
 
 best_run = get_best_run(experiment_id, metric_name, smaller_is_better=True)
 best_run_id = best_run.info.run_id
-#model = mlflow.sklearn.load_model(f"runs:/{best_run_id}/best_model")
+# model = mlflow.sklearn.load_model(f"runs:/{best_run_id}/best_model")
 # Assuming the model is in the 'models' subdirectory within the mounted volume
 model_path = f"/app/models/0/{best_run_id}/artifacts/best_model"
 model = mlflow.sklearn.load_model(model_path)
@@ -66,6 +66,7 @@ def predict():
             ])
         
         X =  features[['Hour', 'Day', 'Month', 'Machine_ID', 'Sensor_ID']]
+        print(X)
         # Fit and transform the features
         X_processed = preprocessor.fit_transform(X)
         # Predict
